@@ -16,7 +16,6 @@ def sniffer(interface):
     scapy.sniff(iface = interface, store = False, prn = process_packet)
     
 def process_packet(packet):
-    print(packet.ip)
     if packet.haslayer(http.HTTPRequest):
         url = get_url(packet)
         print('[+] HTTP Requests/URL Requested -> {}'.format(url), '\n')
