@@ -1,7 +1,6 @@
 # MITM
 ### Man in the middle attack
 
-
 * #### Linux
        git clone https://github.com/hereioz/MITM.git
        cd MITM
