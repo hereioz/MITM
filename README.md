@@ -3,8 +3,8 @@
 
 
 * #### Linux
-       git clone https://github.com/hereioz/Admin-Finder.git
-       cd Admin-Finder
+       git clone https://github.com/hereioz/MITM.git
+       cd MITM
        pip3 install -r requirements.txt
-       chmod +x AdminFinder.py
-       python3 AdminFinder.py
+       chmod +x MITM.py
+       python3 MITM.py
